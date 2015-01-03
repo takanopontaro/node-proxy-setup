@@ -1,0 +1,40 @@
+{
+  "name": "node-proxy-setup",
+  "version": "1.0.0",
+  "description": "Configure setting of web-proxy.",
+  "main": "./lib/main.js",
+  "bin": "./bin/proxysetup",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takanopontaro/node-proxy-setup"
+  },
+  "keywords": [
+    "proxy",
+    "networksetup"
+  ],
+  "author": "takanopontaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takanopontaro/node-proxy-setup/issues"
+  },
+  "homepage": "https://github.com/takanopontaro/node-proxy-setup",
+  "optionalDependencies": {
+    "execSync": "^1.0.2"
+  },
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "shelljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-este-watch": "^0.1.18",
+    "grunt-exec": "^0.4.6",
+    "jasmine": "^2.1.1",
+    "source-map-support": "^0.2.8"
+  }
+}
