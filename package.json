@@ -1,9 +1,9 @@
 {
   "name": "proxy-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configure setting of web-proxy.",
   "main": "./lib/main.js",
-  "bin": "./bin/proxysetup",
+  "bin": {"proxysetup": "./bin/proxysetup"},
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js"
   },
