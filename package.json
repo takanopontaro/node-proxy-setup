@@ -1,5 +1,5 @@
 {
-  "name": "node-proxy-setup",
+  "name": "proxy-setup",
   "version": "1.0.0",
   "description": "Configure setting of web-proxy.",
   "main": "./lib/main.js",
