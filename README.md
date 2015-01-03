@@ -13,6 +13,8 @@ npm install -g proxy-setup
 
 ## Usage
 
+### script
+
 ```js
 var ps = require('proxy-setup');
 
@@ -47,6 +49,7 @@ console.log(ps.web.enabled) //=> false
 console.log(ps.web.server)  //=> ''
 ```
 
+### terminal
 
 ```shell
 # get information current web-proxy
