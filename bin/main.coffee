@@ -4,8 +4,8 @@
 ps = require '../lib/main'
 
 argv = require('minimist')(
-  process.argv.slice(2),
-  string: ['h'],
+  process.argv.slice(2)
+  string: ['h']
   boolean: ['e', 'd']
 )
 
