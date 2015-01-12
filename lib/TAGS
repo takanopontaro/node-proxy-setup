@@ -1,11 +1,9 @@
 
-base.coffee,221
+base.coffee,149
 Function::property = (prop, desc) ->Function::property3,14
   constructor: ->constructor7,122
-      @exec = (cmd) ->@exec14,344
-      @exec = (cmd) ->@exec21,506
-  save: ->save25,585
-  restore: ->restore28,621
+  save: ->save10,188
+  restore: ->restore13,224
 
 main.coffee,35
   constructor: ->constructor4,41

@@ -1,9 +1,11 @@
 {
   "name": "proxy-setup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configure setting of web-proxy.",
   "main": "./lib/main.js",
-  "bin": {"proxysetup": "./bin/main.js"},
+  "bin": {
+    "proxysetup": "./bin/main.js"
+  },
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js"
   },
@@ -21,12 +23,9 @@
     "url": "https://github.com/takanopontaro/node-proxy-setup/issues"
   },
   "homepage": "https://github.com/takanopontaro/node-proxy-setup",
-  "optionalDependencies": {
-    "execSync": "^1.0.2"
-  },
   "dependencies": {
-    "minimist": "^1.1.0",
-    "shelljs": "^0.3.0"
+    "fallback-exec-sync": "0.0.1",
+    "minimist": "^1.1.0"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0",
